@@ -28,14 +28,6 @@ $ cargo build --release
 $ sudo cp target/release/{{crate_name}} /usr/local/bin/
 ```
 
-# Usage
-
-## Command Line Interface
-
-```
-@TODO: cli usage
-```
-
 # License
 
 This crate is licensed under
