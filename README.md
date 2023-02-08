@@ -1,4 +1,4 @@
-# `{Choose what to eat`
+# `{Choose what to eat}`
 
 ![Rust Version][rustc-image]
 [![crates.io][crate-image]][crate-link]
