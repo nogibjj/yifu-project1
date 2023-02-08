@@ -1,4 +1,11 @@
-# Rust Cli
+# Individual Project #1: Rust CLI
+- Build a useful command-line tool in data engineering or machine learning engineering. (see the guide above about specs)
+
+## Steps to run
+- `make format` to format code
+- `make lint` to lint
+- `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
+- `make deploy` which is this `cargo lambda deploy`
 
 **AWS Microservices Guide**
 
@@ -8,15 +15,6 @@
 [![crates.io][crate-image]][crate-link]
 [![Documentation][docs-image]][docs-link]
 [![Dependency Status][deps-image]][deps-link]
-
-# Individual Project #1: Rust CLI
-- Build a useful command-line tool in data engineering or machine learning engineering. (see the guide above about specs)
-
-## Steps to run
-- `make format` to format code
-- `make lint` to lint
-- `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
-- `make deploy` which is this `cargo lambda deploy`
 
 @TODO: about
 
