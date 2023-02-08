@@ -1,5 +1,7 @@
 # `{Choose what to eat}`
 
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
+
 ![Rust Version][rustc-image]
 [![crates.io][crate-image]][crate-link]
 [![Documentation][docs-image]][docs-link]
