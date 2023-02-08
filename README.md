@@ -16,45 +16,14 @@
 [![Documentation][docs-image]][docs-link]
 [![Dependency Status][deps-image]][deps-link]
 
-@TODO: about
-
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [`{{Choose what to eat}}`](#choose-what-to-eat)
-  - [The Pitch](#the-pitch)
-  - [The Anit-Pitch](#the-anit-pitch)
-- [Installation](#installation)
-  - [Compile from Source](#compile-from-source)
-- [Usage](#usage)
-  - [Command Line Interface](#command-line-interface)
-- [License](#license)
-  - [Contribution](#contribution)
-
-<!-- markdown-toc end -->
-
-## The Pitch
-
-@TODO: pitch
-
-## The Anit-Pitch
-
-@TODO: anti-pitch
-
-# Installation
-
-`{{crate_name}}` is a single binary that must be placed somewhere in your
-`$PATH`. One can either download 64-bit Linux binaries from [the Release Page](https://github.com/kbknapp/iptables_exporter/releases)
-or one can also compile from source.
-
 ## Compile from Source
 
 Ensure you have a [Rust toolchain installed](https://rustup.rs). Some of the
 dependencies also require `gcc` to be installed.
 
 ```
-$ git clone https://github.com/kbknapp/{{project-name}}
-$ cd {{project-name}}
+$ git clone 
+$ cd 
 $ cargo build --release
 $ sudo cp target/release/{{crate_name}} /usr/local/bin/
 ```
@@ -69,11 +38,9 @@ $ sudo cp target/release/{{crate_name}} /usr/local/bin/
 
 # License
 
-This crate is licensed under either of
+This crate is licensed under
 
  * [MIT license](http://opensource.org/licenses/MIT)
-
-at your option.
 
 ## Contribution
 
