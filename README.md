@@ -34,11 +34,9 @@ This crate is licensed under
 
  * [MIT license](http://opensource.org/licenses/MIT)
 
-## Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
+## References
+* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+* [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
 
 [//]: # (badges)
 
