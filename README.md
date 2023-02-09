@@ -11,6 +11,9 @@
 
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
 
+**System Programming in Rust**
+![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
+
 ![Rust Version][rustc-image]
 [![crates.io][crate-image]][crate-link]
 [![Documentation][docs-image]][docs-link]
