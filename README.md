@@ -33,8 +33,10 @@ then you woul be asked to enter the ip address
 
 **For example:**
 
-[running example](https://user-images.githubusercontent.com/77519205/217715248-cff580d9-17e8-4046-bf03-173c9053970d.png)
-
+`cargo run
+Enter your ip address:
+98.26.57.6
+98.26.57.6 - Durham (North Carolina), United States, (36.0229, -78.9464), America/New_York`
 
 ## Compile from Source
 
