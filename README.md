@@ -1,4 +1,4 @@
-# Individual Project #1: Information from IP Address
+# Individual Project #1: IP Geolocator
 - Build a useful command-line tool in data engineering or machine learning engineering. 
 - input one ip address, then you will get the informaton of that address
 
