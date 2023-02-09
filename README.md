@@ -1,7 +1,3 @@
-![Rust Version]
-[![crates.io][crate-image]][crate-link]
-[![Documentation][docs-image]][docs-link]
-
 # Individual Project #1: Information from IP Address
 - Build a useful command-line tool in data engineering or machine learning engineering. 
 - input one ip address, then you will get the informaton of that address
