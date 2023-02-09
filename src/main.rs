@@ -6,7 +6,7 @@ use actix_web::{get, web, App, HttpResponse, HttpServer, Responder};
 
 #[get("/")]
 async fn hello() -> impl Responder {
-    HttpResponse::Ok().body("Hello world!")
+    HttpResponse::Ok().body("Welcome to the IP Geolocator!")
 }
 
 //create a function that returns the location of an IP address
@@ -26,9 +26,7 @@ async fn ip(ip: web::Path<String>) -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    HttpServer::new(|| App::new()
-        .service(hello)
-        .service(ip))
+    HttpServer::new(|| App::new().service(hello).service(ip))
         .bind("0.0.0.0:8080")?
         .run()
         .await
