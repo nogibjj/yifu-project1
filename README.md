@@ -1,3 +1,7 @@
+![Rust Version][rustc-image]
+[![crates.io][crate-image]][crate-link]
+[![Documentation][docs-image]][docs-link]
+
 # Individual Project #1: Information from IP Address
 - Build a useful command-line tool in data engineering or machine learning engineering. 
 - input one ip address, then you will get the informaton of that address
@@ -15,22 +19,7 @@
 
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
 
-![Rust Version][rustc-image]
-[![crates.io][crate-image]][crate-link]
-[![Documentation][docs-image]][docs-link]
-[![Dependency Status][deps-image]][deps-link]
-
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-**Table of Contents**
-
-- [Individual Project #1: Rust CLI](#individual-project-1-rust-cli)
-  - [Steps to run](#steps-to-run)
-  - [The Pitch](#the-pitch)
-  - [The Anit-Pitch](#the-anit-pitch)
-- [Installation](#installation)
-  - [Compile from Source](#compile-from-source)
-- [License](#license)
-  - [References](#references)
 
 <!-- markdown-toc end -->
 
