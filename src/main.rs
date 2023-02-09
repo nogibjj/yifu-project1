@@ -16,7 +16,7 @@ async fn main() {
     match Locator::get(ip, service).await {
         Ok(ip) => println!(
             "{} - {} ({}), {}, ({}, {}), {}",
-            ip.ip, ip.city, ip.region, ip.country, ip.latitude, ip.longitude, ip.timezone, ip.version
+            ip.ip, ip.city, ip.region, ip.country, ip.latitude, ip.longitude, ip.timezone
         ),
         Err(error) => println!("Error: {error}"),
     };
