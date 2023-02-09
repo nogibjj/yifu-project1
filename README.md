@@ -1,6 +1,6 @@
 # Individual Project #1: IP Geolocator
 - Build a useful command-line tool in data engineering or machine learning engineering. 
-- input one ip address, then you will get the informaton of that address
+- Input one ip address, then you will get the informaton of that address
 
 ## Steps to run
 - `make format` to format code
@@ -46,8 +46,22 @@ Ensure you have a [Rust toolchain installed](https://rustup.rs). Some of the dep
 $ git clone 
 $ cd 
 $ cargo build --release
-$ sudo cp target/release/{{crate_name}} /usr/local/bin/
+$ sudo cp target/release/yifu-poject1 /usr/local/bin/
 ```
+
+**I also deploy that to AWS actix which is really cool**\
+The link is :https://z9frvdyypt.us-east-1.awsapprunner.com/
+
+## Containerized Actix Continuous Delivery to AWS App Runner
+
+1. cd into `yifu-project1`
+2. build and run container (can do via `Makefile`)
+`docker build -t ip`
+`doccker run -it --rm -p 8080:8080 ip`
+
+3. push to ECR
+4. Tell AWS App Runner to autodeploy
+
 
 # License
 
