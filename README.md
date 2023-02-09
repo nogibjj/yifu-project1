@@ -8,23 +8,6 @@
 - `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
 - `make deploy` which is this `cargo lambda deploy`
 
-**System Programming in Rust**
-![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
-
-**AWS Microservices Guide**
-
-<img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
-
-<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
-
-<!-- markdown-toc end -->
-
-# Installation
-
-`$ cargo install --git`
-
-# Usage
-
 It's really easy to use
 
 `cargo run`
@@ -39,6 +22,21 @@ Enter your ip address:
 98.26.57.6
 98.26.57.6 - Durham (North Carolina), United States, (36.0229, -78.9464), America/New_York
 ```
+
+**System Programming in Rust**
+![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
+
+**AWS Microservices Guide**
+
+<img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
+
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+
+<!-- markdown-toc end -->
+
+# Installation
+
+`$ cargo install --git`
 
 ## Compile from Source
 
