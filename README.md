@@ -7,7 +7,7 @@
 - `make lint` to lint
 - `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
 - `make deploy` which is this `cargo lambda deploy`
-- 
+
 **System Programming in Rust**
 ![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
 
