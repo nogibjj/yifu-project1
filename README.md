@@ -33,10 +33,12 @@ then you woul be asked to enter the ip address
 
 **For example:**
 
-`cargo run
+```
+cargo run
 Enter your ip address:
 98.26.57.6
-98.26.57.6 - Durham (North Carolina), United States, (36.0229, -78.9464), America/New_York`
+98.26.57.6 - Durham (North Carolina), United States, (36.0229, -78.9464), America/New_York
+```
 
 ## Compile from Source
 
