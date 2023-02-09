@@ -12,6 +12,9 @@
 
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
 
+**System Programming in Rust**
+![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
+
 ![Rust Version][rustc-image]
 [![crates.io][crate-image]][crate-link]
 [![Documentation][docs-image]][docs-link]
@@ -28,10 +31,8 @@
   - [The Anit-Pitch](#the-anit-pitch)
 - [Installation](#installation)
   - [Compile from Source](#compile-from-source)
-- [Usage](#usage)
-  - [Command Line Interface](#command-line-interface)
 - [License](#license)
-  - [Contribution](#contribution)
+  - [References](#references)
 
 <!-- markdown-toc end -->
 
@@ -55,33 +56,21 @@ Ensure you have a [Rust toolchain installed](https://rustup.rs). Some of the
 dependencies also require `gcc` to be installed.
 
 ```
-$ git clone https://github.com/kbknapp/{{project-name}}
-$ cd {{project-name}}
+$ git clone 
+$ cd 
 $ cargo build --release
 $ sudo cp target/release/{{crate_name}} /usr/local/bin/
 ```
 
-# Usage
-
-## Command Line Interface
-
-```
-@TODO: cli usage
-```
-
 # License
 
-This crate is licensed under either of
+This crate is licensed under
 
  * [MIT license](http://opensource.org/licenses/MIT)
 
-at your option.
-
-## Contribution
-
-Unless you explicitly state otherwise, any contribution intentionally submitted
-for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
-dual licensed as above, without any additional terms or conditions.
+## References
+* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+* [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
 
 [//]: # (badges)
 
