@@ -71,10 +71,6 @@ This crate is licensed under
 
 
 # Problems encountered
-When I was trying to `make rundocker` after successfully `make build`, I encountered that error\
-`docker: Error response from daemon: failed to create shim: OCI runtime create failed: runc create failed: unable to start container process: exec: "yifu-project1": executable file not found in $PATH: unknown.\
-ERRO[0001] error waiting for container: context canceled `\
-, and I updata the name of package in the file **Cargo.toml**, after that, the error of \
-`yifu-project1: error while loading shared libraries: libcurl.so.4: cannot open shared object file: No such file or directory` \
-appears, and I figure that add\ 
-`RUN apt-get update && apt-get install -y libcurl4` into the **Dockerfile**.
+When trying to run make rundocker after successfully building with make build, I encountered an error that read `docker: Error response from daemon: failed to create shim: OCI runtime create failed: runc create failed: unable to start container process: exec: "yifu-project1": executable file not found in $PATH: unknown." and "ERRO[0001] error waiting for container: context canceled`.
+
+To resolve this issue, I updated the package name in the **Cargo.toml** file. However, a new error appeared that read `yifu-project1: error while loading shared libraries: libcurl.so.4: cannot open shared object file: No such file or directory`. To fix this, I added the line `RUN apt-get update && apt-get install -y libcurl4` to my Dockerfile.
