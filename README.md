@@ -71,6 +71,8 @@ This crate is licensed under
 ## References
 * [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
 * [Command Line Applications in Rust](https://rust-cli.github.io/book/index.html)
+* [API of Address](https://ipapi.co/api/?ruby#introduction)
+* [ipgeolocate](https://github.com/grantshandy/ipgeolocate)
 
 [//]: # (badges)
 
@@ -81,3 +83,5 @@ This crate is licensed under
 [docs-link]: https://docs.rs/{{project-name}}
 [deps-image]: https://deps.rs/repo/github/kbknapp/{{project-name}}/status.svg
 [deps-link]: https://deps.rs/repo/github/kbknapp/{{project-name}}
+
+
