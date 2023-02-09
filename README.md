@@ -1,5 +1,6 @@
 # Individual Project #1: Rust CLI
 - Build a useful command-line tool in data engineering or machine learning engineering. (see the guide above about specs)
+- input one ip address, then you will get 
 
 ## Steps to run
 - `make format` to format code
@@ -21,7 +22,8 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
-- [`{{Choose what to eat}}`](#choose-what-to-eat)
+- [Individual Project #1: Rust CLI](#individual-project-1-rust-cli)
+  - [Steps to run](#steps-to-run)
   - [The Pitch](#the-pitch)
   - [The Anit-Pitch](#the-anit-pitch)
 - [Installation](#installation)
