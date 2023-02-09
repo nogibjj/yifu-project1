@@ -1,6 +1,6 @@
 # Individual Project #1: Information from IP Address
 - Build a useful command-line tool in data engineering or machine learning engineering. 
-- input one ip address, then you will get 
+- input one ip address, then you will get the informaton of that address
 
 ## Steps to run
 - `make format` to format code
