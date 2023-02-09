@@ -48,6 +48,7 @@ then you woul be asked to enter the ip address
 
 **For example:**
 
+[running example](https://user-images.githubusercontent.com/77519205/217715248-cff580d9-17e8-4046-bf03-173c9053970d.png)
 
 
 ## Compile from Source
