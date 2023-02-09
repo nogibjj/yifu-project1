@@ -3,10 +3,10 @@ install:
 		cargo build -j 1
 
 build:
-	docker build -t fruit .
+	docker build -t ip .
 
 rundocker:
-	docker run -it --rm -p 8080:8080 Locator
+	docker run -it --rm -p 8080:8080 ip
 
 format:
 	cargo fmt --quiet
