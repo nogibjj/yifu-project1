@@ -1,5 +1,5 @@
-# Individual Project #1: Rust CLI
-- Build a useful command-line tool in data engineering or machine learning engineering. (see the guide above about specs)
+# Individual Project #1: Information from IP Address
+- Build a useful command-line tool in data engineering or machine learning engineering. 
 - input one ip address, then you will get 
 
 ## Steps to run
