@@ -7,20 +7,18 @@
 - `make lint` to lint
 - `make release-arm` to build for arm which is: `cargo lambda build --release --arm64`
 - `make deploy` which is this `cargo lambda deploy`
+- 
+**System Programming in Rust**
+![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
 
 **AWS Microservices Guide**
 
 <img width="738" alt="image" src="https://user-images.githubusercontent.com/77519205/217607808-a50c517a-c348-48e6-9952-85267adb0bb0.png">
 
-**System Programming in Rust**
-![1 1-prompt-engineering](https://user-images.githubusercontent.com/58792/213335664-f459e6ac-018a-4ccf-9563-bbe6d49d72d1.png)
-
 ![Rust Version][rustc-image]
 [![crates.io][crate-image]][crate-link]
 [![Documentation][docs-image]][docs-link]
 [![Dependency Status][deps-image]][deps-link]
-
-@TODO: about
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
@@ -36,24 +34,25 @@
 
 <!-- markdown-toc end -->
 
-## The Pitch
-
-@TODO: pitch
-
-## The Anit-Pitch
-
-@TODO: anti-pitch
-
 # Installation
 
-`{{crate_name}}` is a single binary that must be placed somewhere in your
-`$PATH`. One can either download 64-bit Linux binaries from [the Release Page](https://github.com/kbknapp/iptables_exporter/releases)
-or one can also compile from source.
+`$ cargo install --git`
+
+# Usage
+
+It's really easy to use
+
+`cargo run`
+
+then you woul be asked to enter the ip address
+
+**For example:**
+
+
 
 ## Compile from Source
 
-Ensure you have a [Rust toolchain installed](https://rustup.rs). Some of the
-dependencies also require `gcc` to be installed.
+Ensure you have a [Rust toolchain installed](https://rustup.rs). Some of the dependencies also require `gcc` to be installed.
 
 ```
 $ git clone 
